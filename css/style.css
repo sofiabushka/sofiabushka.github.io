@@ -1,0 +1,32 @@
+/* html {
+    font-size: 18px;
+} */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: papayawhip;
+}
+
+.exception {
+    background-color: palevioletred;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+h1 {
+    text-transform: uppercase;
+}
+
+.menu {
+   list-style: none;
+   padding: 0; 
+}
+.menu a{
+   text-decoration: none;
+   line-height: 1.5em;
+}
+.menu a:hover {
+    background-color: white;
+}
