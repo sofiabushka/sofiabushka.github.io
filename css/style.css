@@ -10,9 +10,8 @@ body {
 }
 
 .exception {
-    background-color: palevioletred;
     font-size: 18px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 h1 {
@@ -29,4 +28,19 @@ h1 {
 }
 .menu a:hover {
     background-color: white;
+}
+
+.block1 {
+    display: block;
+    width: 95%;
+    margin: 0px 0px 0px 30px ;
+}
+.block2 {
+    display: block;
+    width: 300px;
+    margin: 0px 0px 0px 10px;
+}
+.block3 {
+    display: block;
+    width: 800px;
 }
