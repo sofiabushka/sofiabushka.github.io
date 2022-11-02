@@ -56,6 +56,10 @@ body {
 body {
     margin: 0px;
 }
+.headerontop {
+    position: sticky;
+    top: 0;
+}
 .navbar {
     background-color: black;
     width: 100%;
@@ -78,7 +82,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: right;
+    justify-content: flex-end;
 }
 .menu a {
    text-decoration: none;
