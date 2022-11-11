@@ -38,8 +38,10 @@ body {
     margin: 0px 0px 20px 0px ;
 }
 .photo {
-    display: block;
+    display: flex;
     margin: 20px 30px;
+    justify-content: center;
+    gap: 10px;
 }
 .photo img {
     padding: 0px 10px;
@@ -73,6 +75,7 @@ body {
     color: white;
     font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
+    white-space: nowrap;
     
 }
 .menu {
@@ -94,6 +97,9 @@ body {
    margin: 0px 4px;
    border: 0px solid transparent;
    border-radius: 10px;
+}
+.paragraf a {
+text-decoration: none;
 }
 
 .menu a:hover {
