@@ -44,11 +44,12 @@ body {
     display: flex;
     margin: 20px 30px;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
 }
 .img-photo {
-    border-radius: 50px;
-    width: 400px;
+    border-radius: 30px;
+    width: auto;
+    height: 260px;
 }
 
 .img-photo2 {
