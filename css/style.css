@@ -26,6 +26,9 @@ body {
     font-size: 16px;
     margin: 10px 0px 10px 20px ;
 }
+.paragraf a {
+    text-decoration: none;
+    }
 .exception {
     font-size: 17px;
     color: rgb(0, 0, 0);
@@ -41,10 +44,16 @@ body {
     display: flex;
     margin: 20px 30px;
     justify-content: center;
-    gap: 10px;
+    gap: 50px;
 }
-.photo img {
-    padding: 0px 10px;
+.img-photo {
+    border-radius: 50px;
+    width: 400px;
+}
+
+.img-photo2 {
+    border-radius: 50px;
+    width: 300px;
 }
 .goalsmenu {
     font-size: 15px;
@@ -61,6 +70,11 @@ body {
 .headerontop {
     position: sticky;
     top: 0;
+}
+.container {
+max-width: 1400px;
+padding: 0 15px;
+margin: 0 auto;
 }
 .navbar {
     background-color: black;
@@ -98,10 +112,6 @@ body {
    border: 0px solid transparent;
    border-radius: 10px;
 }
-.paragraf a {
-text-decoration: none;
-}
-
 .menu a:hover {
     background-color: palevioletred;
 }
