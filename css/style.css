@@ -83,8 +83,9 @@ body {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.50);
 }
 .photo-second {
-    display: ruby-base-container;
-    margin: 5px 70px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 70px;
     justify-content: center;
     gap: 20px;
 }
@@ -92,6 +93,7 @@ body {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     width: auto;
     height: 175px;
+    margin: 0px 10px 20px 0px;
 }
 .photo-fourth {
     display: flex;
