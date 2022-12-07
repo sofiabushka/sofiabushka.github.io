@@ -33,10 +33,10 @@ body {
 }
 .about2 {
     display: flex;
-    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    font-weight: bold;
-    justify-content: left;
+    font-weight: 700;
+    justify-content: center;
     margin: 30px 0px 20px 28px;
     color: palevioletred;
 }
@@ -52,18 +52,11 @@ body {
 .paragraf1 {
     display: block;
     font-family:'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    margin: 0px 30px 5px 30px;
-    color: black;
-    max-width: 1350px;
-}
-.paragraf1 {
-    display: block;
-    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
     font-size: 16px;
     margin: 30px 30px 5px 30px;
     color: black;
+    max-width: 1350px;
 }
 .paragraf a {
     text-decoration: none;
@@ -98,7 +91,7 @@ body {
 .oneimg {
     border-radius: 30px;
     width: auto;
-    height: 550px;
+    height: 500px;
 }
 .img-photo {
     border-radius: 30px;
@@ -123,7 +116,7 @@ body {
     display: flex;
     margin: 30px 30px 40px 30px;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
 }
 .photo-third {
     display: flex;
@@ -139,12 +132,10 @@ body {
 
 }
 .imgphoto {
-    border-radius: 30px 30px 0px 0px;
+    border-radius: 150px;
     width: auto;
-    height: 280px;
+    height: 160px;
 }
-
-
 
 .goalsmenu {
     font-size: 15px;
@@ -193,7 +184,8 @@ background-color: black;
 }
 .logo {
     color: white;
-    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 18px;
     white-space: nowrap;
     
@@ -211,7 +203,8 @@ background-color: black;
     text-decoration: none;
     line-height: 1.5em;
     color: white;
-    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     font-size: 20px;
     padding: 4px 15px;
     margin: 0px 4px;
@@ -234,7 +227,8 @@ background-color: black;
    text-decoration: none;
    line-height: 1.5em;
    color: white;
-   font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 500;
    font-size: 16px;
    padding: 4px 15px;
    margin: 0px 4px;
