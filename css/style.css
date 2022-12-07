@@ -36,7 +36,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 700;
-    justify-content: center;
+    justify-content: left;
     margin: 30px 0px 20px 28px;
     color: palevioletred;
 }
@@ -115,7 +115,7 @@ body {
 .photo-fourth {
     display: flex;
     margin: 30px 30px 40px 30px;
-    justify-content: center;
+    justify-content: right;
     gap: 50px;
 }
 .photo-third {
