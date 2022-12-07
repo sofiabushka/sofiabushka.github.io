@@ -15,7 +15,7 @@ body {
 }
 .about {
     display: flex;
-    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: bold;
     justify-content: center;
@@ -24,7 +24,7 @@ body {
 }
 .about1 {
     display: flex;
-    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: bold;
     justify-content: left;
@@ -42,7 +42,8 @@ body {
 }
 .paragraf {
     display: block;
-    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
     font-size: 16px;
     margin: 5px 30px 5px 30px;
     color: white;
@@ -50,7 +51,8 @@ body {
 }
 .paragraf1 {
     display: block;
-    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
     font-size: 16px;
     margin: 0px 30px 5px 30px;
     color: black;
@@ -70,12 +72,14 @@ body {
 .exception {
     font-size: 17px;
     color: white;
-    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     margin: 5px 30px 5px 30px;
 }
 .hobbimenu {
     font-size: 15px;
-    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
     margin: 0px 0px 20px 0px;
     color: white;
 }
@@ -144,7 +148,8 @@ body {
 
 .goalsmenu {
     font-size: 15px;
-    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
     margin: 5px 0px 20px 0px;
     color: white;
 }
