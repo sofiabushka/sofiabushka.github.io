@@ -76,12 +76,6 @@ body {
     margin: 0px 0px 20px 20px;
     color: white;
 }
-.onephoto {
-    display: flex;
-    margin:50px 200px 60px;
-    justify-content: right;
-    gap: 30px;
-}
 .photo {
     display: flex;
     margin: 20px 30px;
@@ -153,12 +147,50 @@ body {
     position: sticky;
     top: 0;
 }
+.home {
+    min-height: 100;
+    color: white;
+}
 .container {
 max-width: 100%;
 padding: 2px 15px;
 margin: 0 auto;
 background-color: black;
 
+}
+.home-content {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-top: 40px;
+}
+.home-title {
+    max-width: 700px;
+    font-size: 60px;
+    font-weight: 700;
+    margin:20px 100px 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+.home-btn {
+   text-decoration: none;
+   line-height: 1.5em;
+   color: white;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   padding: 4px 5px;
+   margin:20px 100px 60px;
+   border: 0px solid transparent;
+   border-radius: 10px;
+}
+.home-btn:hover {
+    background-color: palevioletred;
+}
+.onephoto {
+    display: flex;
+    margin:20px 100px 60px;
+    justify-content: right;
+    gap: 30px;
 }
 .container1 {
     max-width: 100%;
