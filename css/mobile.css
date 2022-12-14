@@ -2,8 +2,12 @@
     .navbar {
         flex-direction: column;
         max-width: 100%;
-
     }
+    .menu {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    
     .container {
         max-width: 100%;
     } 
