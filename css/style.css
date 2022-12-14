@@ -37,7 +37,7 @@ body {
     font-size: 25px;
     font-weight: 700;
     justify-content: left;
-    margin: 30px 0px 20px 33px;
+    margin: 30px 0px 20px 40px;
     color: palevioletred;
 }
 .paragraf {
@@ -63,7 +63,7 @@ body {
     font-family:'Raleway', sans-serif;
     font-weight: 500;
     font-size:16px;
-    margin-left: 30px;
+    margin-left: 40px;
     color: white;
     max-width: 1350px;
 }
@@ -72,7 +72,7 @@ body {
     font-family:'Raleway', sans-serif;
     font-weight: 500;
     font-size:16px;
-    margin: 10px 30px 0px;
+    margin-left: 40px;
     color: white;
     max-width: 1350px;
 }
@@ -126,7 +126,7 @@ body {
 }
 .photo-fourth {
     display: flex;
-    margin-right: 30px;
+    margin-right: 40px;
     justify-content: right;
     gap: 50px;
 }
@@ -198,21 +198,24 @@ background-color: black;
 .home-btn {
    text-decoration: none;
    line-height: 1.5em;
-   color: white;
+   background-color: palevioletred;
+   color: #fff;
    font-family: 'Raleway', sans-serif;
    font-weight: 500;
    font-size: 16px;
-   padding: 4px 5px;
+   padding: 15px 25px;
    margin:20px 100px 60px;
-   border: 0px solid transparent;
-   border-radius: 10px;
+   border-radius: 40px;
 }
 .home-btn:hover {
-    background-color: palevioletred;
+    background-color: rgb(216, 112, 147,0.9);
+}
+.home-btn:active {
+    position: relative;
 }
 .onephoto {
     display: flex;
-    margin:20px 100px 60px;
+    margin:30px 100px 90px;
     justify-content: right;
     gap: 30px;
 }
