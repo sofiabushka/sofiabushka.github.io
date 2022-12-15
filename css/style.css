@@ -10,8 +10,8 @@ body {
 }
 
 
-.h1{
-    display: block;
+.black {
+    background-color: black;
 }
 .about {
     display: flex;
@@ -21,6 +21,11 @@ body {
     justify-content: center;
     margin: 40px 0px 0px 30px;
     color: palevioletred;
+
+}
+#about {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .about1 {
     display: flex;
@@ -166,12 +171,15 @@ body {
     top: 0;
 }
 .home {
-    min-height: 100;
-    color: white;
+    min-height: 100%;
+    background-color: black;
+    width: 100%;
 }
 .container {
-max-width: 100%;
-padding: 2px 15px;
+width: 100%;
+max-width: 1024px;
+padding-left: 20px;
+padding-right: 20px;
 margin: 0 auto;
 background-color: black;
 
@@ -186,13 +194,18 @@ background-color: black;
  display: flex;
  justify-content: space-between;
  align-items: center;
- padding-top: 40px;
+}
+.home-content-left {
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 30px;
 }
 .home-title {
-    max-width: 700px;
     font-size: 60px;
     font-weight: 700;
-    margin:20px 100px 60px;
     font-family: 'Montserrat', sans-serif;
 }
 .home-btn {
@@ -204,7 +217,6 @@ background-color: black;
    font-weight: 500;
    font-size: 16px;
    padding: 15px 25px;
-   margin:20px 100px 60px;
    border-radius: 40px;
 }
 .home-btn:hover {
@@ -215,22 +227,16 @@ background-color: black;
 }
 .onephoto {
     display: flex;
-    margin:30px 100px 90px;
     justify-content: right;
     gap: 30px;
 }
-.container1 {
-    max-width: 100%;
-    padding: 2px 15px;
-    margin: 0 auto;
-    background-color: black;
-    }
-.container2 {
-    max-width: 1400px;
-    padding: 2px 15px;
-    margin: 0 auto;
+#Portfolio {
     background-color: white;
-    }
+}
+#Contacts {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
 .navbar {
     background-color: black;

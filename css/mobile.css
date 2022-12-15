@@ -1,3 +1,13 @@
+@media screen and  (max-width: 768px) {
+    .home-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+
+ }
+
+
 @media screen and (max-width: 480px) {
     .navbar {
         flex-direction: column;
@@ -20,16 +30,4 @@
    
 }
 
-     @media screen and (min-width: 480.5px) and  (max-width: 767px) {
-        .container {
-            max-width: 540px;
-            background-color: blueviolet;
-        } 
-        .container1 {
-            max-width: 540px;
-        }
-        .container2 {
-            max-width: 540px;
-        }
-
-     }
+     
