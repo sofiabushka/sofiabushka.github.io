@@ -237,8 +237,12 @@ width: 100%;
     gap: 30px;
     width: 50%;
 }
+
 #Portfolio {
     background-color: white;
+    padding-bottom: 40px;
+    padding-top: 40px;
+
 }
 #Contacts {
     padding-top: 40px;
