@@ -14,13 +14,14 @@
         
         <title>Intro to CSS</title>
         <link rel="stylesheet" href="css/style.css"/>
-
+        <link rel="stylesheet" href="css/nav.css"/>
+        <link rel="stylesheet" href="css/burger.css"/>
         <link rel="stylesheet" href="css/mobile.css"/>
     </head>
 
     <body>
       <header class="headerontop"> 
-         <nav>
+         <!--<nav>
          <div class="navbar container" >
           <ul class="menu1">
              <div class="logo"><a href="#SOFIA BUSHKA">SOFIA BUSHKA</a>
@@ -41,8 +42,30 @@
                </li>
              </ul>
             </div>
-           </nav>
-         </div>
+           </nav>-->
+           <nav>
+            <div class="navbar container">
+                <div class="logo">
+                    <a class="logo" href="#SOFIA BUSHKA">
+                     SOFIA BUSHKA
+                    </a>
+                </div>
+                <div class="navigation">
+                    <button class="nav-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul>
+                        <li><a class="nav-link" href="#about">Про мене</a></li>
+                        <li><a class="nav-link" href="#Portfolio">Портфоліо</a></li>
+                        <li><a class="nav-link" href="#Programs">Програми</a></li>
+                        <li><a class="nav-link" href="#Contacts">Контакти</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
        </header>
 
           
@@ -55,7 +78,7 @@
                   SOFIA BUSHKA <br/>
                   UI/UX DESIGNER
                   </div>
-                  <a href="#About me" class="btn">Дізнатися більше</a>
+                  <a href="#about" class="btn">Дізнатися більше</a>
                 </div>
                 <div class="onephoto">
                     <img class="oneimg" src="photo0.jpg">
@@ -66,7 +89,7 @@
        
      <main class="h1 black">
          <div id="about" class="container"> 
-           <div class="about1">ПРО МЕНЕ</div>
+           <div class="about1">Про мене</div>
             <p class="paragraf">
                 Я – Софія. Люблю коли мене називають Софа. Мені 19, 23 січня виповниться цілих 20 (звучить трохи страшно і надто по-дорослому). Навчаюсь у <a href="https://lnam.edu.ua/uk/" target="_blank">Львівській національній академії мистецтв</a> (ЛНАМ) на факультеті графічного дизайну і дуже цьому рада. Люблю подорожувати, об'їздила багато країн Європи, хотіла б побувати в Франції (Париж) і полетіти в Америку. Люблю також дивитися різні фільми, тусити з друзями і просто насолоджуватись життям.</p>
              <h1 class="exception">Мої хобі і просто те, що подобається:</h1>
@@ -102,7 +125,7 @@
 
      <main class="h1">
          <div class="container" id="Portfolio">
-             <div class="about">ПОРТФОЛІО</div> 
+             <div class="about">Портфоліо</div> 
                <p class="paragraf1">
                 Ось декілька моїх робіт на теперішній час:
                </p>
@@ -120,7 +143,7 @@
              
 
                <div class="about" id="Programs">
-                ПРОГРАМИ В ЯКИХ Я ПРАЦЮЮ
+                Програми
                </div>
                <br>
              <div class="photo-third">
@@ -137,13 +160,11 @@
 
       <main class="h1 black">
          <div class="container">
-            <div class="about2" id="Contacts"><b>КОНТАКТИ</b></div>
+            <div class="about2" id="Contacts"><b>Контакти</b></div>
             <div class="flex">
                <div class="bottom-container">
-                  <p class="paragraf2">
+                  <p>
                     +380967697410 <br/>
-                 </p>
-                 <p class="paragraf3">
                     sofibush23@gmail.com
                  </p>
                 </div>
@@ -157,31 +178,6 @@
          </div>
      </main>
 
-     <header class="headerontop"> 
-      <nav>
-      <div class="navbar container" >
-       <ul class="menu1">
-          <div class="logo"><a href="#SOFIA BUSHKA">SOFIA BUSHKA</a>
-          </div>
-       </ul>
-          <ul class="menu">
-            <li>
-             <a href="#about">Про мене</a>
-            </li>
-             <li>
-             <a href="#Portfolio">Портфоліо</a>
-            </li>
-            <li>
-               <a href="#Programs">Програми</a>
-              </li>
-            <li>
-             <a href="#Contacts">Контакти</a>
-            </li>
-          </ul>
-         </div>
-        </nav>
-      </div>
-    </header>
-      
+   <script  src="js/nav.js"></script>
     </body>
 </html>

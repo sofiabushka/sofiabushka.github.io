@@ -29,6 +29,7 @@ body {
     max-width: 700px;
     line-height: 150%;
 }
+
 .about1 {
     display: flex;
     font-family:'Montserrat', sans-serif;
@@ -39,12 +40,10 @@ body {
     color: palevioletred;
 }
 .about2 {
-    display: flex;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     font-weight: 700;
-    justify-content: left;
-    margin: 30px 0px 20px 40px;
+    margin: 30px 0 20px 0;
     color: palevioletred;
 }
 .paragraf {
@@ -66,24 +65,7 @@ body {
     color: black;
     max-width: 1350px;
 }
-.paragraf2 {
-    display: block;
-    font-family:'Raleway', sans-serif;
-    font-weight: 500;
-    font-size:16px;
-    margin-left: 40px;
-    color: white;
-    max-width: 1350px;
-}
-.paragraf3 {
-    display: block;
-    font-family:'Raleway', sans-serif;
-    font-weight: 500;
-    font-size:16px;
-    margin-left: 40px;
-    color: white;
-    max-width: 1350px;
-}
+
 .paragraf a {
     text-decoration: none;
     color: palevioletred;
@@ -99,7 +81,7 @@ body {
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    margin: 0px 0px 20px 20px;
+    margin: 5px 0px 20px 20px;
     color: white;
 }
 .photo {
@@ -121,7 +103,6 @@ body {
 .photo-second {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px 70px;
     justify-content: center;
     gap: 20px;
 }
@@ -133,27 +114,27 @@ body {
 }
 .photo-fourth {
     display: flex;
-    margin-right: 40px;
     justify-content: right;
-    gap: 50px;
+    gap: 30px;
 }
 .photo-third {
     display: flex;
-    margin: 20px 30px 50px 30px;
     justify-content: center;
     gap: 50px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 .img-photo3 {
     border-radius: 10px;
-    width: auto;
-    height: 150px;
+    width: 100px;
     gap: 80px;
-
 }
 .imgphoto {
-    border-radius: 150px;
-    width: auto;
-    height: 80px;
+    border-radius: 12px;
+    width: 40px;
 }
 
 .goalsmenu {
@@ -166,6 +147,10 @@ body {
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
 }
 
 .headerontop {
@@ -262,6 +247,10 @@ background-color: black;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+}
+.bottom-container {
+    color: white;
+    font-family:'Raleway', sans-serif;
 }
 .logo {
     color: white;

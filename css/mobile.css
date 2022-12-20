@@ -6,6 +6,16 @@
   .home-title {
     font-size: 40px;
   }
+  .photo-third {
+    padding: 0 30px;
+    gap: 4%;
+  }
+  .img-photo3 {
+    border-radius: 10px;
+    width: 21%;
+  
+
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -26,5 +36,51 @@
     width: 100%;
     order: 1;
   }
+  .img-photo2 {
+    width: 100%;
+    height: auto;
+    margin: 0 0px 20px 0;
+  }  
+  .about1 {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: left;
+    margin: 10px 0 20px 0px;
+    color: palevioletred;
+}
+.paragraf {
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 5px 30px 5px 0;
+  color: white;
+  max-width: 1350px;
+  margin-bottom: 20px;
+}
+.exception {
+  font-size: 17px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  margin: 5px 30px 5px 0;
+}
+.hobbimenu {
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: white;
+}
+.paragraf1 {
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 30px 30px 5px 0;
+  color: black;
+  max-width: 1350px;
+}
 
 }
